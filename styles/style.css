@@ -102,6 +102,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   font-size: var(--content-font-size, 18px);
+  padding: var(--button-padding, 0 25px 0 25px);
   font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
   color: var(--content-color, #FF0070);
   border: none;
@@ -110,19 +111,21 @@
 .header__theme-menu-button_active {
   border: 1px solid var(--content-color, #FF0070);
   pointer-events: none;
-  padding: var(--button-padding, 0 25px 0 25px);
   transition: border 0.5s;
 }
 
-.header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.40);
-  padding: var(--button-padding, 0 25px 0 25px);
+.header__theme-menu-item:hover {
+  border: var(--menu-button-border, 1px solid rgba(255, 0, 112, 0.40));
   transition: border 0.5s;
 }
 
-.header__theme-menu-button:focus-visible {
+.header__theme-menu-item:focus {
+  outline: none;
   border: none;
-  text-decoration: 1px underline currentColor;
+}
+
+.header__theme-menu-button:focus {
+  text-decoration: 1px underline var(--content-color, #FF0070);
   text-underline-position: under;
 }
 
