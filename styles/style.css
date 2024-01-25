@@ -107,6 +107,7 @@
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   color: var(--content-color, #FF0070);
   border: none;
+  text-transform: lowercase;
 }
 
 .header__theme-menu-button_active {
@@ -117,15 +118,15 @@
 
 .header__theme-menu-item:hover {
   border: var(--menu-button-border, 1px solid rgba(255, 0, 112, 0.40));
-  transition: border 0.5s;
 }
 
-.header__theme-menu-item:focus {
+.header__theme-menu-button:focus-visible {
   outline: none;
   border: none;
 }
 
 .header__theme-menu-button:focus {
+  outline: none;
   text-decoration: 1px underline var(--content-color, #FF0070);
   text-underline-position: under;
 }
