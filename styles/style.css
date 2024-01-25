@@ -81,7 +81,7 @@
   color: var(--header-color, #DB00FF);
   text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--header-font-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--header-line-height, 82.5%);
 }
@@ -237,7 +237,7 @@ a {
   color: var(--header-color, #DB00FF);
   text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--header-font-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--header-line-height, 82.5%);
 }
