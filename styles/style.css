@@ -12,7 +12,8 @@
 }
 
 .header {
-  min-block-size: 100vh;
+  min-block-size: 668px;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   justify-items: self-end;
@@ -28,7 +29,7 @@
   text-transform: uppercase;
   font-weight: var(--font-weight-normal, 400);
   font-size: var(--content-font-size, 18px);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   top: 12px;
   right: 19px;
   display: flex;
@@ -79,14 +80,14 @@
 .header_title {
   color: var(--header-color, #DB00FF);
   text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--header-line-height, 82.5%);
 }
 
 .header_text {
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: 18px;
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--content-line-height, 130%);
@@ -103,7 +104,7 @@
   background-color: transparent;
   font-size: var(--content-font-size, 18px);
   padding: var(--button-padding, 0 25px 0 25px);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   color: var(--content-color, #FF0070);
   border: none;
 }
@@ -147,7 +148,7 @@
   font-weight: var(--font-weight-normal, 400);
   line-height: var(--content-line-height, 130%);
   color: var(--main-font-color, #F1B2CE);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
 }
 
 a {
@@ -166,7 +167,7 @@ a {
 .text-content-title {
   min-inline-size: 355px;
   color: var(--accent-color, #FF0070);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--content-line-height, 130%);
@@ -177,14 +178,14 @@ a {
   min-inline-size: 355px;
   max-block-size: 71px;
   color: var(--accent-font-color, #000028);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--content-line-height, 130%);
 }
 
 .text-content-subtitle-h4 {
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
   font-weight: var(--font-weight-normal, 400);
   line-height: var(--content-line-height, 130%);
@@ -235,7 +236,7 @@ a {
 .header_title-footer {
   color: var(--header-color, #DB00FF);
   text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
-  font-family: var(--main-font, 'IBM Plex Mono', 'Serif');
+  font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--header-line-height, 82.5%);
