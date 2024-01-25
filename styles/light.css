@@ -22,7 +22,7 @@
   --content-line-height: 130%;
 }
 
-.page.theme_light .red-light {
+.page.theme_light .light-decoration {
   display: none;
 }
 
@@ -46,7 +46,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .red-light {
+  .light-decoration {
     display: none;
   }
 }
