@@ -10,7 +10,7 @@
   --accent-font-color: #353430; 
   --content-color: #353430;
   --accent-color: #FF8DCB;
-  --background-image: url(/images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
   --header-color: #FFC2E6;
   --menu-button-border: 1px solid #353430;
   --content-font-size: 18px;
@@ -33,7 +33,7 @@
     --accent-font-color: #353430; 
     --accent-color: #FF8DCB;
     --content-color: #353430;
-    --background-image: url(/images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
     --header-color: #FFC2E6;
     --content-font-size: 18px;
     --button-font-size: 25px;

@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: var( --background-image, url(/images/cover-image-dark.png));
+  background-image: var( --background-image, url(../images/cover-image-dark.png));
   background-color: var(--bg-color, #000028);
   background-position: center;
   background-size: cover;
@@ -244,7 +244,7 @@ a {
 
 
  @media (min-width: 768px) { 
-  
+
   .page {
     min-inline-size: 728px;
   }
