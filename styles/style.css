@@ -365,7 +365,7 @@ a {
 
  @media (min-width: 1024px) {
   .page {
-    min-inline-size: 1024px;
+    min-inline-size: 984px;
   }
 
   .header__theme-menu {
