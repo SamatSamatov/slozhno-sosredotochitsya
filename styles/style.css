@@ -262,12 +262,14 @@ a {
   }
 
   .header {
+    padding: 20px;
     grid-template-columns: 1fr;
     min-inline-size: 768px;
     /* padding: 20px 20px 0 20px; */
   }
   
   .header_title {
+    margin-left: -19px;
     align-self: center;
     justify-self: flex-start;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -280,7 +282,7 @@ a {
 
   .decorated-zone::before {
     top: 20px;
-    right: 4px;
+    right: 20px;
   }
 
   .decorated-zone::after {
@@ -289,13 +291,13 @@ a {
   }
 
   .light-decoration {
-    top: 21px;
-    right: 12px;
+    top: 20px;
+    right: 30px;
   }
 
   .main-content-section {
     gap: 80px; 
-    /* padding: 0 20px; */
+    padding: 0 20px;
   }
 
   .text-content-title {
@@ -355,6 +357,15 @@ a {
     grid-column: 2/4;
     grid-row: 4/5;
   }
+
+  .footer-section {
+    min-block-size: 1024px;
+    block-size: 100vh;
+  }
+
+  .header_title-footer {
+    padding-top: 43px;
+  }
  
  }
 
@@ -377,15 +388,23 @@ a {
 
   .header__theme-menu-list {
     flex-direction: row;
-    margin-top: 21px;
   }
 
   .header_text {
     max-inline-size: 491px;
     max-block-size: 71px;
-    margin-bottom: 21px;
     justify-self: flex-end;
-    font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);;
+    font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  }
+
+  .light-decoration {
+    top: 21px;
+    right: 12px;
+  }
+
+  .decorated-zone::before {
+    top: 20px;
+    right: 4px;
   }
 
   .why {
@@ -444,5 +463,10 @@ a {
   margin-top: 20px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
  }
+
+ .footer-section {
+  min-block-size: 768px;
+  block-size: 100vh;
+  }
 
  }
