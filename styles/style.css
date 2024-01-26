@@ -172,7 +172,7 @@ a {
 
 .text-content-title {
   min-inline-size: 355px;
-  color: var(--accent-color, #FF0070);
+  color: var(--content-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
   font-weight: var(--font-weight-bold, 700);
