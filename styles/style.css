@@ -9,6 +9,7 @@
   background-attachment: fixed;
   min-inline-size: 375px;
   max-inline-size: 1440px;
+  padding: 10px;
 }
 
 .header {
@@ -17,7 +18,7 @@
   justify-content: center;
   align-items: center;
   justify-items: self-end;
-  padding: 10px 10px 10px 10px;
+  /* padding: 10px 10px 10px 10px; */
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   position: relative;
@@ -135,7 +136,7 @@ button {
   flex-direction: column;
   margin-block-start: 30px;
   gap: 50px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .what-grid {
@@ -184,7 +185,6 @@ a {
   margin: 0 0 10px;
 }
 
-
 .text-content-subtitle {
   min-inline-size: 355px;
   max-block-size: 71px;
@@ -230,7 +230,7 @@ a {
 .footer-section {
   min-block-size: 668px;
   block-size: 100vh;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -249,14 +249,15 @@ a {
 
 
 
- @media (min-width: 768px) { 
+ @media (width > 375px) { 
 
   .page {
     min-inline-size: 728px;
+    padding: 20px;
   }
 
   .header {
-    padding: 20px;
+    /* padding: 20px; */
     grid-template-columns: 1fr;
   }
   
@@ -289,7 +290,7 @@ a {
 
   .main-content-section {
     gap: 80px; 
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .text-content-title {
@@ -354,22 +355,27 @@ a {
   .footer-section {
     min-block-size: 1024px;
     block-size: 100vh;
-    padding: 20px;
+    /* padding: 20px; */
     align-items: center;
   }
  
  }
 
- @media (min-width: 1024px) {
+ @media (width > 769px) {
 
   .page {
     min-inline-size: 984px;
     max-inline-size: 1024px;
+    /* padding: 20px; */
+  }
+
+  .header {
+    min-width: 984px;
   }
 
   .main-content-section {
     gap: 75px;
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 38px;
   }
 
@@ -389,15 +395,15 @@ a {
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
-  .light-decoration {
-    top: 20px;
-    right: 30px;
+  /* .light-decoration {
+    top: 10px;
+    right: 20px;
   }
 
   .decorated-zone::before {
-    top: 20px;
-    right: 20px;
-  }
+    top: 10px;
+    right: 10px;
+  } */
 
   .why {
     grid-template-columns: 330px 1fr;
