@@ -254,7 +254,7 @@ a {
   .header {
     padding: 20px;
     grid-template-columns: 1fr;
-    min-inline-size: 768px;
+    /* min-inline-size: 768px; */
   }
   
   .header_title {
