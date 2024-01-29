@@ -123,8 +123,7 @@
 
 .header__theme-menu-button:focus {
   outline: none;
-  text-decoration: 1px underline var(--content-color, #FF0070);
-  text-underline-position: under;
+  border-bottom: 1px solid var(--content-color, #FF0070);
 }
 
 .main-content-section {
