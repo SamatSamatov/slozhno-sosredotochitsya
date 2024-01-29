@@ -116,10 +116,6 @@
   transition: border 0.5s;
 }
 
-.header__theme-menu-item:hover {
-  border: var(--menu-button-border, 1px solid rgba(255, 0, 112, 0.40));
-}
-
 .header__theme-menu-button:focus-visible {
   outline: none;
   border: none;
