@@ -254,7 +254,6 @@ a {
   .header {
     padding: 20px;
     grid-template-columns: 1fr;
-    /* min-inline-size: 768px; */
   }
   
   .header_title {
@@ -406,9 +405,7 @@ a {
   }
 
   .how {
-    display: grid;
     grid-template-columns: 336px 1fr;
-    grid-template-rows: 1fr;
     grid-column-gap: 0px;
   }
 
@@ -457,7 +454,6 @@ a {
 
  .footer-section {
   min-block-size: 768px;
-  block-size: 100vh;
   }
 
  }
