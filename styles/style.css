@@ -238,7 +238,7 @@ a {
   position: relative;
 }
 
-.header_title-footer {
+.title-footer {
   color: var(--header-color, #DB00FF);
   text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
@@ -327,27 +327,27 @@ a {
     gap: 20px;
   }
 
-  .img-gallery-sunset {
+  .img-1-gallery {
     grid-column: 1/3;
     grid-row: 2/3;
   }
 
-  .img-gallery-tape {
+  .img-3-gallery {
     grid-column: 1/2;
     grid-row: 3/5;
   }
 
-  .img-gallery-icecream {
+  .img-2-gallery {
     grid-column: 3/4;
     grid-row: 2/4;
   }
 
-  .img-gallery-books {
+  .img-4-gallery {
     grid-column: 2/3;
     grid-row: 3/3;
   }
 
-  .img-gallery-street {
+  .img-5-gallery {
     grid-column: 2/4;
     grid-row: 4/5;
   }
@@ -422,28 +422,26 @@ a {
 
   .what-grid { 
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-    grid-auto-flow: column;
   }
 
   .what-header {
     grid-area: 1 / 1 / 2 / 2;
   }
 
-  .multitask {
+  .what-1-card {
     align-content: baseline;
     grid-area: 2 / 1 / 3 / 2;
   }
 
-  .food { 
+  .what-2-card { 
     align-content: baseline;
     grid-area: 2 / 2 / 3 / 3;
   }
 
-  .gadgets {
+  .what-3-card {
     grid-area: 2 / 3 / 3 / 4;
   }
 
@@ -456,7 +454,7 @@ a {
     align-self: top;
   }
 
- .header_title-footer {
+ .title-footer {
   margin-top: 10px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
  }
