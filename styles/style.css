@@ -157,6 +157,7 @@ a {
 }
 
 .link-decoration:focus {
+  outline: none;
   border: 1px solid currentColor;
 }
 
