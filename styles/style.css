@@ -100,6 +100,10 @@
   color: var(--accent-font-color, #000028);
 }
 
+button {
+  cursor: pointer;
+}
+
 .header__theme-menu-button {
   background-color: transparent;
   font-size: var(--content-font-size, 18px);
