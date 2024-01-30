@@ -24,8 +24,6 @@
   position: relative;
 }
 
-
-
  .light-decoration {
   position: absolute;
   color: var(--accent-color, #FF0070);
@@ -138,6 +136,14 @@ button {
   outline: none;
   border-bottom: 1px solid var(--content-color, #FF0070);
 }
+
+/* .header__theme-menu-item:hover { 
+  border: var(--menu-button-border, 1px solid rgba(255, 0, 112, 0.40)); 
+}  */
+
+.header__theme-menu-button:hover { 
+  border: 1px solid var(--menu-button-border, rgba(255, 0, 112, 0.40)); 
+} 
 
 .main-content-section {
   display: flex;
