@@ -80,7 +80,7 @@
   flex-direction: column;
   align-items: center;
   gap: 13px;
-  margin-bottom: 12px; /*ADDED*/
+  margin-bottom: 12px; 
 }
 
 .header_title {
@@ -99,7 +99,7 @@
   line-height: var(--content-line-height, 130%);
   max-inline-size: 355px;
   justify-self: center;
-  margin-bottom: 15px; /*ADDED*/
+  margin-bottom: 15px; 
 }
 
 .title-decor {
@@ -136,10 +136,6 @@ button {
   outline: none;
   border-bottom: 1px solid var(--content-color, #FF0070);
 }
-
-/* .header__theme-menu-item:hover { 
-  border: var(--menu-button-border, 1px solid rgba(255, 0, 112, 0.40)); 
-}  */
 
 .header__theme-menu-button:hover { 
   border: 1px solid var(--menu-button-border, rgba(255, 0, 112, 0.40)); 
