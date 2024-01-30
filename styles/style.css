@@ -436,26 +436,13 @@ a {
   .what-grid { 
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
   }
 
-  .what-header {
-    grid-area: 1 / 1 / 2 / 2;
-  }
 
-  .what-1-card {
+  .what-card {
     align-content: baseline;
-    grid-area: 2 / 1 / 3 / 2;
-  }
-
-  .what-2-card { 
-    align-content: baseline;
-    grid-area: 2 / 2 / 3 / 3;
-  }
-
-  .what-3-card {
-    grid-area: 2 / 3 / 3 / 4;
   }
 
   .text-content-subtitle {
@@ -464,7 +451,7 @@ a {
   }
 
   .text-content-title {
-    padding-block-end: 0;
+    padding-block-end: 20px;
   }
   
   .article-text {
