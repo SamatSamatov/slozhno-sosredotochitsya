@@ -368,7 +368,6 @@ a {
   .footer-section {
     margin-top: 40px;
     min-block-size: 1024px;
-    block-size: 100vh;
     align-items: center;
   }
 
