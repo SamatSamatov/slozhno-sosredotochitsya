@@ -36,8 +36,9 @@
     --background-image: url(../images/cover-image-light.png);
     --header-color: #FFC2E6;
     --content-font-size: 18px;
+    --menu-button-border: rgba(50, 49, 45, 0.40);
     --button-font-size: 25px;
-    --button-padding: 0 25px 0 25px;
+    --button-padding: 0 13px 0 13px;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
     --header-line-height: 82.5%;
