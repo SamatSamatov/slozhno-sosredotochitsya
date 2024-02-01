@@ -261,12 +261,11 @@ a {
 
 
 
-@media (width > 375px) { 
+@media (728px <= width < 1023px) { 
 
   .page {
     min-inline-size: 375px;
-    max-inline-size: 728px;
-    /* min-inline-size: 728px; */
+    max-inline-size: 768px;
     padding: 20px;
   }
 
@@ -370,7 +369,6 @@ a {
 
   .footer-section {
     margin-top: 40px;
-    min-block-size: 1024px;
     align-items: center;
   }
 
@@ -381,17 +379,36 @@ a {
  
  }
 
- @media (width > 769px) {
+ @media (width >= 1024px) {
 
   .page {
     min-inline-size: 984px;
     max-inline-size: 1024px;
-    /* max-width: 984px; */
+    padding: 20px;
   }
 
-  /* .header {
-    max-width: 984px; поменяол на максимальную ширину вместо миниmальной
-  } */
+  .header {
+    min-block-size: 768px;
+    grid-template-columns: 1fr;
+  }
+  
+  .header_title {
+    margin-bottom: 24px;
+    margin-left: -19px;
+    align-self: center;
+    justify-self: flex-start;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header_text {
+    max-inline-size: 364px;
+    justify-self: flex-end;
+    margin-bottom: 58px;
+  }
+
+  .decorated-zone::after {
+    bottom: 40px;
+  }
 
   .main-content-section {
     gap: 81px;
@@ -415,30 +432,29 @@ a {
   }
 
   .why {
+    display: grid;
     grid-template-columns: 330px 1fr;
     grid-column-gap: 5px;
   }
 
-  .gallery {
-    padding-top: 0px;
-  }
-
   .how {
+    display: grid;
     grid-template-columns: 336px 1fr;
     grid-column-gap: 0px;
   }
 
   .text-content-title {
     max-inline-size: 314px;
+    padding-block-end: 20px;
   }
 
   .what-grid { 
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-auto-flow: row;
     grid-auto-rows: 1fr;
   }
-
 
   .what-card {
     align-content: baseline;
@@ -448,22 +464,58 @@ a {
     min-inline-size: 315px;
     max-block-size: 23px;
   }
-
-  .text-content-title {
-    padding-block-end: 20px;
-  }
   
   .article-text {
     align-self: top;
   }
 
- .title-footer {
-  margin-top: 10px;
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
- }
-
- .footer-section {
-  min-block-size: 768px;
+  .gallery {
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
   }
 
+  .img-1-gallery {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .img-3-gallery {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+
+  .img-2-gallery {
+    grid-column: 3/4;
+    grid-row: 2/4;
+  }
+
+  .img-4-gallery {
+    grid-column: 2/3;
+    grid-row: 3/3;
+  }
+
+  .img-5-gallery {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+
+  .footer-section {
+    min-block-size: 768px;
+    margin-top: 40px;
+    max-block-size: 1024px;
+    align-items: center;
+  }
+
+  .title-footer {
+    margin-top: 10px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-left: 0;
+    margin-bottom: 45px;
+  }
+ 
  }
+
+ 
