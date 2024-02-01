@@ -7,8 +7,9 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
+  /* min-inline-size: 375px;
+  max-inline-size: 1440px; */
+  max-inline-size: 355px;
   padding: 10px;
 }
 
@@ -260,10 +261,12 @@ a {
 
 
 
- @media (width > 375px) { 
+@media (width > 375px) { 
 
   .page {
-    min-inline-size: 728px;
+    min-inline-size: 375px;
+    max-inline-size: 728px;
+    /* min-inline-size: 728px; */
     padding: 20px;
   }
 
@@ -383,11 +386,12 @@ a {
   .page {
     min-inline-size: 984px;
     max-inline-size: 1024px;
+    /* max-width: 984px; */
   }
 
-  .header {
-    min-width: 984px;
-  }
+  /* .header {
+    max-width: 984px; поменяол на максимальную ширину вместо миниmальной
+  } */
 
   .main-content-section {
     gap: 81px;
