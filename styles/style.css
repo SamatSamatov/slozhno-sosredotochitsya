@@ -182,7 +182,7 @@ a {
 }
 
 .text-content-title {
-  min-inline-size: 355px;
+  /* min-inline-size: 355px; */
   color: var(--content-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
