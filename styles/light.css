@@ -12,6 +12,7 @@
   --accent-color: #FF8DCB;
   --background-image: url(../images/cover-image-light.png);
   --header-color: #FFC2E6;
+  --bg-color: #FFC2E6;
   --menu-button-border: rgba(50, 49, 45, 0.40);
   --content-font-size: 18px;
   --button-font-size: 25px;
@@ -35,6 +36,7 @@
     --content-color: #353430;
     --background-image: url(../images/cover-image-light.png);
     --header-color: #FFC2E6;
+    --bg-color: #FFC2E6;
     --content-font-size: 18px;
     --menu-button-border: rgba(50, 49, 45, 0.40);
     --button-font-size: 25px;

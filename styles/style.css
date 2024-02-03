@@ -7,9 +7,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /* min-inline-size: 375px;
-  max-inline-size: 1440px; */
-  max-inline-size: 355px;
+  min-inline-size: 355px;
   padding: 10px;
 }
 
@@ -98,6 +96,7 @@
   font-size: 18px;
   font-weight: var(--font-weight-bold, 700);
   line-height: var(--content-line-height, 130%);
+  min-width: 355px;
   max-inline-size: 355px;
   justify-self: center;
   margin-bottom: 15px; 
@@ -182,7 +181,6 @@ a {
 }
 
 .text-content-title {
-  /* min-inline-size: 355px; */
   color: var(--content-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
@@ -196,8 +194,7 @@ a {
 }
 
 .text-content-subtitle {
-  min-inline-size: 355px;
-  max-block-size: 71px;
+  min-width: 355px;
   color: var(--accent-font-color, #000028);
   font-family: var(--main-font, 'IBM Plex Mono', 'monospace');
   font-size: var(--content-font-size, 18px);
@@ -260,12 +257,9 @@ a {
 }
 
 
-
-@media (728px <= width < 1023px) { 
+@media (width >= 768px) and (width <=1023px) { 
 
   .page {
-    min-inline-size: 375px;
-    max-inline-size: 768px;
     padding: 20px;
   }
 
@@ -284,6 +278,7 @@ a {
 
   .header_text {
     max-inline-size: 364px;
+    min-inline-size: 355px;
     justify-self: flex-end;
     margin-bottom: 58px;
   }
@@ -309,7 +304,6 @@ a {
   }
 
   .text-content-title {
-    min-inline-size: 236px;
     max-inline-size: 236px;
   }
 
@@ -379,16 +373,15 @@ a {
  
  }
 
+
  @media (width >= 1024px) {
 
   .page {
-    min-inline-size: 984px;
     max-inline-size: 1024px;
     padding: 20px;
   }
 
   .header {
-    min-block-size: 768px;
     grid-template-columns: 1fr;
   }
   
@@ -398,12 +391,6 @@ a {
     align-self: center;
     justify-self: flex-start;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
-  .header_text {
-    max-inline-size: 364px;
-    justify-self: flex-end;
-    margin-bottom: 58px;
   }
 
   .decorated-zone::after {
@@ -425,8 +412,9 @@ a {
   }
 
   .header_text {
+    justify-self: flex-end;
+    margin-bottom: 58px;
     max-inline-size: 491px;
-    max-block-size: 71px;
     justify-self: flex-end;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
@@ -462,7 +450,6 @@ a {
 
   .text-content-subtitle {
     min-inline-size: 315px;
-    max-block-size: 23px;
   }
   
   .article-text {
@@ -505,7 +492,6 @@ a {
   .footer-section {
     min-block-size: 768px;
     margin-top: 40px;
-    max-block-size: 1024px;
     align-items: center;
   }
 
